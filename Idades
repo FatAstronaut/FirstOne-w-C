@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+int Filho1;
+int Filho2;
+int Filho3;
+int Mae;
+
+
+printf ("Digite a idade do primeiro filho");
+scanf ("%d", &Filho1);
+
+printf ("Digite a idade do segundo filho");
+scanf ("%d", &Filho2);
+
+printf ("Digite a idade do terceiro filho");
+scanf ("%d", &Filho3);
+
+Mae = Filho1 + Filho2 + Filho3;
+
+printf("A idade da mae é = %d", Mae);
+
+return 0;
+}
