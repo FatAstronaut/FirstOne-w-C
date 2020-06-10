@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+ int main() {
+
+    int cavalos;
+    int ferraduras;
+
+    printf ("Informe o numero de cavalos:");
+    scanf("%d", &cavalos);
+
+    ferraduras = cavalos * 4;
+
+    printf ("Precisará de = %d ferraduras", ferraduras);
+
+
+    return 0;
+}
