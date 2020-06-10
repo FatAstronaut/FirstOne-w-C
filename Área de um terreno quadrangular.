@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+  main() {
+
+    float larg;
+    float comp;
+    float area;
+
+    printf("Informe a largura do terreno:");
+    scanf("%f", &larg);
+
+    printf ("Informe o comprimento do terreno:");
+    scanf("%f", &comp);
+
+    area = larg*comp;
+    printf ("A area do terreno = %.2f", area);
+
+
+    return 0;
+    }
