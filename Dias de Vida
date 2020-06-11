@@ -1,0 +1,21 @@
+#include <iostream>
+
+ main() {
+
+   int id;
+   char nome[30];
+   int dias_vida;
+
+   printf ("Qual o seu nome:");
+   scanf("%s", nome);
+
+   printf ("Qual sua idade:");
+   scanf ("%d", &id);
+
+   dias_vida = id*365;
+
+   printf ("%s voce viveu %d dias", nome, dias_vida);
+
+
+   return 0;
+}
