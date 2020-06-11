@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+main() {
+
+    float gasolina;
+    float preco;
+    float quant_litros;
+
+
+    printf("Insira o valor:");
+    scanf ("%f", &gasolina);
+
+    printf("Insira o preco da gasolina:");
+    scanf ("%f", &preco);
+
+    quant_litros = gasolina/preco;
+
+    printf ("Quantidade de litros = %.2f", quant_litros);
+
+
+    return 0;
+}
