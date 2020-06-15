@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+
+    int n;
+    int resto;
+
+    printf("Digite o numero");
+    scanf ("%d", &n);
+
+    resto = n % 2;
+    printf ("resto da divisao igual a = %d", resto);
+
+    if (resto == 1)
+        printf("impar");
+    else
+       printf("par");
+
+    return 0;
+}
