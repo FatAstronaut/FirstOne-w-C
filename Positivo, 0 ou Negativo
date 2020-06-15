@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+    int n1;
+
+    printf("Insira o numero");
+    scanf("%d", &n1);
+
+    if(n1>0)
+    {
+        printf("Positivo");
+    }
+    else if(n1<0)
+    {
+        printf("Negativo");
+    }
+    else
+    {
+        printf("Numero = 0");
+    }
+    return 0;
+}
