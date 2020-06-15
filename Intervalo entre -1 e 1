@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+ main() {
+
+    float N;
+
+    printf("Digite um numero qualquer");
+    scanf("%f", &N);
+
+    if (N>-1 && N<1)
+    {
+        printf("Numero dentro do intervalo");
+    }
+
+    else
+    {
+        printf("Numero fora do intervalo");
+
+    }
+
+    return 0;
+}
