@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+ main() {
+
+     int j = 2;
+     do
+    {
+        printf ("%d\n", j);
+        j = j+2;
+    }
+    while (j<=30);
+    
+    return 0;
+}
