@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+ int main()
+{
+    int a;
+    int b;
+    int c;
+    
+    printf ("Digite o valor do primeiro lado");
+    scanf ("%d", &a);
+    
+    printf ("Digite o valor do segundo lado");
+    scanf ("%d", &b);
+    
+    printf ("Digite o valor do terceiro lado");
+    scanf ("%d", &c);
+    
+    if(a<b+c && b<a+b && c<a+b) 
+    {
+      printf("Forma Triangulo\n");
+    }
+    
+    if(a==b && a==c)
+    {
+        printf("Triangulo Equilatero");
+    }
+    
+    else if (a==b || b==c)
+    {
+        printf("Triangulo Isoceles");
+    }
+    
+    else if (a!=b && b!=c)
+    {
+        printf("Triangulo Escaleno");
+    }
+    
+    else
+    {
+        printf("Não forma triangulo");
+    }
+    
+    return 0;
+}
