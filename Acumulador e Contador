@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+main()
+{
+   float id, media, ac, i;
+   
+   i=1; //inicialização do contador 
+   ac=0; //inicialização do acumulador
+   
+   while (i<=10)
+   {
+      printf("Qual sua idade");
+      scanf("%f", &id);
+      ac=ac+id;
+      i++;
+   }
+  media = ac/10;
+  printf("Media dos alunos da classe = %f", media);
+}
