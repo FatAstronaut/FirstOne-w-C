@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <conio.h>
+
+int main()
+{
+    int v[10];
+    int i;
+    srand(time(NULL));
+    for(i=0; i<=9; i++)
+    {
+        v[i]= rand()%10;
+    }
+    for(i=0;i<=9;i++)
+    {
+       printf("V[%d] = %d\n", i, v[i]);
+    }
+}
