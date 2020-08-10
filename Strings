@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+main()
+{
+    char frase [50];
+    int i,mai=0;
+    printf("Digite uma frase qualquer");
+    gets(frase);
+    for (i=0;i<=strlen(frase)-1;i++)
+    {
+        if (isupper(frase[i]))
+        {
+            frase[i] = '*';
+            mai++;
+        }
+    }
+    printf ("Total de maiusculas = %d\n",mai);
+    puts (frase);
+}
