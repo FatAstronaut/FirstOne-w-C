@@ -1,7 +1,6 @@
-# FirstOne-w-C
-First C problems solved.
+# Introduction_C
+First C exercises solved.
 
 
- This is a 15 algoritms task list solved in C, my first one's by the way!
  
                 
